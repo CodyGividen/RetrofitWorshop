@@ -22,7 +22,7 @@ import static com.example.codygividen.retrofitworshop.MainActivity.ARTIST_NAME;
 import static com.example.codygividen.retrofitworshop.MainActivity.SONG_TITLE;
 
 public class LyricsFragment extends Fragment {
-    private String baseUrl = "http;//api.lyrics.ovh/v1/";
+    private String baseUrl = "http://api.lyrics.ovh/v1/";
     private Retrofit retrofit;
     private RetrofitMusicApiCalls retrofitMusicApiCalls;
     @BindView(R.id.lyrics_text)

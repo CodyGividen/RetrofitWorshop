@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     }
     @OnClick(R.id.submit_button)
     protected void submitClicked() {
-        LyricsFragment lyricsFragment = LyricsFragment.newInstance();
+        lyricsFragment = LyricsFragment.newInstance();
         if (artistNameEditText.getText().toString().isEmpty() || songEditText.getText().toString().isEmpty()) {
             Toast.makeText(this, "Both Fields are required. Try Again!!", Toast.LENGTH_LONG).show();
         } else {
